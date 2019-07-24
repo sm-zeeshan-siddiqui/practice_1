@@ -27,7 +27,16 @@ body{
     width: 20%;
     margin-top: 16px;
     font-size: 25px;
-    color: #4A5D8B;
+   
+}
+
+.logo a{
+    color: #4A5D8B; 
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: #46D159;
 }
 
 .navigation{
@@ -47,11 +56,16 @@ body{
     list-style: none;
     padding: 0 25px;
     font-size: 25px;
-    color: #4A5D8B;
+    
 }
 
 .navigation ul li a{
   text-decoration: none; 
+  color: #4A5D8B;
+  transition: .5s;
+}
+.navigation ul li a:hover{
+    color: #46D159;
 }
 
 .navigation ul li:last-child{
@@ -91,7 +105,12 @@ body{
     background-color: #B3EAFF;
     border: 1px solid #B3EAFF;
     border-radius: 10px;
-    
+    cursor : pointer;    
+   }
+
+   .buttons button:hover{
+    background-color: white;
+    color: #46D159;
    }
 
    
@@ -108,6 +127,11 @@ body{
     border-radius: 50%;
     background-color: #4A5D8B;
     color: white;
+  }
+
+  .social-media i:hover{
+    background-color: white;
+    color: #4A5D8B;
   }
 
   .banner-img{
