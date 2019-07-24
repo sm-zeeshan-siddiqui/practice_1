@@ -1,0 +1,116 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.banner{
+    width : 100%;
+    background-image: url(../images/bg_banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.wrapper{    
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.header{
+
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    margin-top: 16px;
+    font-size: 25px;
+    color: #4A5D8B;
+}
+
+.navigation{
+    float: right;
+    width:70%;
+    overflow: hidden;
+}
+
+.navigation ul{
+  overflow: hidden;
+  float: right;
+  display: block;
+}
+
+.navigation ul li{
+    float: left;
+    list-style: none;
+    padding: 0 25px;
+    font-size: 25px;
+    color: #4A5D8B;
+}
+
+.navigation ul li a{
+  text-decoration: none; 
+}
+
+.navigation ul li:last-child{
+   padding-right: 0px;
+    
+  }
+
+
+  .banner-wrapper{    
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+
+  .content{
+    width: 40%;
+    float: left;
+  }
+
+  .content h1{
+    color: #4A5D8B;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .content p{
+    color: #4A5D8B;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .buttons button{
+    margin: 10px 15px 0 0;
+    padding: 12px 12px;
+    background-color: #B3EAFF;
+    border: 1px solid #B3EAFF;
+    border-radius: 10px;
+    
+   }
+
+   
+  .social-media{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+
+  .social-media i{
+    border: 1px solid #4A5D8B;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #4A5D8B;
+    color: white;
+  }
+
+  .banner-img{
+    width:40%;
+    float: right;    
+}
